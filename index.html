@@ -8,10 +8,10 @@
 
 <style>
 :root{
-    --bg1:#fffdf8;
-    --bg2:#f7efe8;
+    --bg1:#f9fcff;
+    --bg2:#e8f3ff;
     --text:#4f6654;
-    --soft:#8f7275;
+    --soft:#8a7d92;
 }
 
 *{
@@ -27,8 +27,13 @@ body{
     align-items:center;
 
     background:
-        radial-gradient(circle at 50% 25%, rgba(255,255,255,.95) 0%, transparent 45%),
-        linear-gradient(180deg,var(--bg1),var(--bg2));
+    radial-gradient(
+        circle at 50% 25%,
+        rgba(255,255,255,.95) 0%,
+        rgba(232,243,255,.35) 35%,
+        transparent 60%
+    ),
+    linear-gradient(180deg,var(--bg1),var(--bg2));
 
     font-family:
         ui-rounded,
